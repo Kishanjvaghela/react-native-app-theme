@@ -1,0 +1,35 @@
+{
+  "name": "react-native-app-theme",
+  "version": "1.0.0",
+  "description": "Light weight react-native theme library using React.createContext",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishanjvaghela/react-native-app-theme.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "theme",
+    "react-native-theme",
+    "app-theme",
+    "style",
+    "light",
+    "dark"
+  ],
+  "author": "Kishan Vaghela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kishanjvaghela/react-native-app-theme/issues"
+  },
+  "homepage": "https://github.com/Kishanjvaghela/react-native-app-theme#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": ">=16.5.0",
+    "react-dom": ">=16.5.0",
+    "react-native": ">=0.57.0"
+  }
+}
