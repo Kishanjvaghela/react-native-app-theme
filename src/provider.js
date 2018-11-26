@@ -4,8 +4,9 @@ import { getContext, getThemes } from './theme-context';
 class ThemeProvider extends React.Component {
   constructor(props) {
     super(props);
+    const themeArray = Object.values(getThemes());
     this.state = {
-      theme: getThemes().light,
+      theme: themeArray[0],
       changeTheme: this.changeTheme
     };
   }
