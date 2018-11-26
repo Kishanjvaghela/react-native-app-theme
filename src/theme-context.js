@@ -1,18 +1,17 @@
 import React from 'react';
-import Colors from '@colors';
 
 export const themes = {
   light: {
     name: 'light',
     foreground: '#000000',
     background: '#F7F7F7',
-    textPrimary: Colors.primaryColor
+    textPrimary: 'black'
   },
   dark: {
     name: 'dark',
     foreground: '#ffffff',
     background: '#222222',
-    textPrimary: Colors.textLight
+    textPrimary: 'white'
   }
 };
 
