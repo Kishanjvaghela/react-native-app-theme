@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import { StyleSheet } from 'react-native';
 // import ThemeConsumer from './consumer';
 import { ThemeContext } from './theme-context';
@@ -11,7 +11,7 @@ const applyTheme = (styles, PassedComponent) => {
       this.currentStyle = {};
     }
     setTheme = theme => {
-      if (this.currentTheme !== theme.name) {
+      if (styles && this.currentTheme !== theme.name) {
         this.currentTheme = theme.name;
         return StyleSheet.create(styles(theme));
       } else {
