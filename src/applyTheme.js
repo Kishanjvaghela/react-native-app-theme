@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 // import ThemeConsumer from './consumer';
-import { ThemeContext } from './theme-context';
+import { getContext } from './theme-context';
 
 const applyTheme = (styles, PassedComponent) => {
   class Parent extends React.Component {
@@ -19,6 +19,7 @@ const applyTheme = (styles, PassedComponent) => {
       }
     };
     render() {
+      const ThemeContext = getContext();
       return (
         <ThemeContext.Consumer>
           {({ theme, changeTheme }) => {

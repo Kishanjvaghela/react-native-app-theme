@@ -1,3 +1,3 @@
-import { ThemeContext } from './theme-context';
+import { getContext } from './theme-context';
 
-export default ThemeContext.Consumer;
+export default getContext().Consumer;
