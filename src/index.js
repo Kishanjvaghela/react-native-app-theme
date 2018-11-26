@@ -1,5 +1,5 @@
-import applyTheme from './applyTheme';
+import withTheme from './withTheme';
 import ThemeProvider from './provider';
 import { init } from './theme-context';
 
-export { ThemeProvider, applyTheme, init };
+export { ThemeProvider, withTheme, init };

@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 // import ThemeConsumer from './consumer';
-import { getContext } from './theme-context';
+import { getContext } from 'react-native-app-theme/src/theme-context';
 
-const applyTheme = (styles, PassedComponent) => {
+const withTheme = (styles, PassedComponent) => {
   class Parent extends React.Component {
     constructor(props) {
       super(props);
@@ -40,4 +40,4 @@ const applyTheme = (styles, PassedComponent) => {
   return Parent;
 };
 
-export default applyTheme;
+export default withTheme;
